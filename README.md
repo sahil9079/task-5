@@ -16,6 +16,23 @@ Deploy and manage an application on a **Kubernetes cluster** running locally usi
 
 ## ⚙️ Setup Workflow
 
+<img width="1920" height="1080" alt="Screenshot (456)" src="https://github.com/user-attachments/assets/d339db67-115f-4a81-abb3-195d4cff3d66" />
+
+
+
+<img width="1920" height="1080" alt="Screenshot (459)" src="https://github.com/user-attachments/assets/c4477a45-d056-4eb5-958a-c1c1d9d8cacb" />
+
+
+<img width="1920" height="1080" alt="Screenshot (460)" src="https://github.com/user-attachments/assets/51664ec5-a894-490a-96fd-1a6a27113fcd" />
+
+
+<img width="1920" height="1080" alt="Screenshot (462)" src="https://github.com/user-attachments/assets/4d0a6b34-c683-4bd1-84df-cae2ca68980a" />
+
+<img width="1920" height="1080" alt="Screenshot (465)" src="https://github.com/user-attachments/assets/0555f920-4e4d-4640-8c8c-9f61a75fd6ba" />
+
+<img width="1920" height="1080" alt="Screenshot (463)" src="https://github.com/user-attachments/assets/8b282934-802d-4e73-8e67-9e8aabcf9965" />
+
+
 ### 1️⃣ Verify Tools Installation
 ```bash
 kubectl version --client
@@ -47,17 +64,11 @@ Solution:
 
 docker pull nginx:latest
 minikube image load nginx:latest
-<img width="1920" height="1080" alt="Screenshot (460)" src="https://github.com/user-attachments/assets/8e0f7f11-d07d-4aef-b954-18103e50af12" />
 
 
 Then reapply the deployment:
 
 kubectl rollout restart deployment nginx-deployment
-<img width="1920" height="1080" alt="Screenshot (461)" src="https://github.com/user-attachments/assets/ab99b5d0-be0e-4e1d-bf68-d168075fec79" />
 
-<img width="1920" height="1080" alt="Screenshot (459)" src="https://github.com/user-attachments/assets/1fdb0bc4-0be7-4ce1-85a2-5ba36fa2ae01" />
 
-<img width="1920" height="1080" alt="Screenshot (465)" src="https://github.com/user-attachments/assets/837b7300-2fac-4421-b06d-03a3d295638d" />
-
-<img width="1920" height="1080" alt="Screenshot (463)" src="https://github.com/user-attachments/assets/331d60ef-b884-4429-882d-49a9861b1e6f" />
 
